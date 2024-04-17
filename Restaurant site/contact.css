@@ -1,0 +1,103 @@
+body{
+  height: 100vh;
+}
+
+
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;  
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 13px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+.auth-modal{
+  background-color: rgb(0, 0, 0);
+  width: 460px;
+  font-size: 16px;
+  border-radius: 10px;  
+  padding: 10px 100px;
+  margin-top: 0px;
+  box-shadow: rgba(255, 0, 0, 0.05) 0 6px 24px 0, rgba(255, 0, 0, 0.09) 0 0 0 1px;
+}
+
+.auth-modal form{
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-modal input{
+  padding: 4px;
+  margin: 4px;
+  font-size: 17px;
+}
+
+.auth-modal input::placeholder{
+  color: red;
+}
+
+.auth-modal .form-button{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px ;
+  border-radius: 30px;
+  margin: 6px;
+  /* border: white solid 1px; */
+  background: rgb(255, 255, 255);
+  border-color: red;
+ 
+}
+
+.appointment-btn{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 30px;
+  margin: 6px;
+  border: rgb(255, 0, 0) solid 1px;
+} */
+
+ .appointment-btn:hover{
+  color: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
+  
+  cursor: pointer;
+}
+
+.auth-modal .form-button:hover{
+  color: rgb(255, 0, 0);
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+
+
+
+.footer{
+  margin-top: 100px;
+}
+
+
+
+@media only screen  and (max-width: 768px ) {
+  header{
+    position: fixed;
+    top: 0;
+  }
+} 
